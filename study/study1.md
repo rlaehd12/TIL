@@ -2,7 +2,7 @@
 * README.md
  * 설명서
 
-####Repository
+#### Repository
 
 * 특정 디렉토리를 버전 관리하는 저장소
  * git init으로 로컬 저장소 생성
