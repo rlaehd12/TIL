@@ -28,9 +28,17 @@ result = (b is c)
 ''' true false'''
 b=[]
 if not b:
-    print('b는 빔')
+    print('b는 비어있음')
 
 '''리스트'''
+print(list(range(6,1,-1)))
 
-a=[a,b,c]
-print(len(a))
+'''슬라이싱'''
+print([1,2,3,4][0:4:2]) #[1,3]
+print((1,2,3,4,5,)[0:4:2]) #(1,3)
+print('abcdefg'[1:4:2]) #'bd'
+
+'''딕셔너리'''
+dict_a = {'a': 'apple', 'b':'banana', 'list':[1,2,3]}
+# print(dict_a['c']) 이렇게 쓰면 오류남 c라는 키가 없어서
+print(dict_a.get('c')) # get을 쓰면 없는 키는 none 반환
