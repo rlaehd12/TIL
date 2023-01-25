@@ -42,3 +42,7 @@ print('abcdefg'[1:4:2]) #'bd'
 dict_a = {'a': 'apple', 'b':'banana', 'list':[1,2,3]}
 # print(dict_a['c']) 이렇게 쓰면 오류남 c라는 키가 없어서
 print(dict_a.get('c')) # get을 쓰면 없는 키는 none 반환
+
+'''형변환'''
+print(True + 3) # 4
+print(3 + 5.0) # 8.0
