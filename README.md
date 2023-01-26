@@ -2,7 +2,7 @@
 
 ## 파이썬
 
-* [변수, 자료형 및 기타 등등](https://github.com/rlaehd12/TIL/blob/main/python/0116.md#index)
+* [변수, 자료형 등](https://github.com/rlaehd12/TIL/blob/main/python/0116.md#index)
   * [ex](https://github.com/rlaehd12/TIL/blob/main/python/0116.py)
 * [제어문 및 코드 스타일](https://github.com/rlaehd12/TIL/blob/main/python/0117.md#index)
   * [ex](https://github.com/rlaehd12/TIL/blob/main/python/0117.py)
@@ -19,8 +19,9 @@
 
 * 아직 없슴
 
-## 기타 등등
+## 기타 학습
 
 * [꿀팁](https://github.com/rlaehd12/TIL/blob/main/study/study0.1.md)
 * [git 기본기](https://github.com/rlaehd12/TIL/blob/main/study/study1.md)
-* [git 기초 및 기타 등등](https://github.com/rlaehd12/TIL/blob/main/study/study2.md)
+* [git 기초 등](https://github.com/rlaehd12/TIL/blob/main/study/study2.md)
+* [etc](https://github.com/rlaehd12/TIL/blob/main/study/etc.md#etc)
