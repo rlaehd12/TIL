@@ -29,3 +29,29 @@
 ```python
 def func1(param1, param2, /): # / 앞에 있는거는 키워드로 못받음
 ```
+
+## 제이슨 구조 확인
+
+* [제이슨 뷰어](http://jsonviewer.stack.hu/)
+
+## 리퀘스트 모듈 활용 및 예시
+
+* 공식문서 잘 봐서 어떤 데이터 제공하는지 확인하자
+  * 뭐가 필수이고 뭐가 옵션인지 알려주기도 함
+* 그냥 URL주소 그대로 인터넷에 치면 제이슨으로 나옴
+
+```python
+import requests
+from pprint import pprint
+
+url = 'https://api.themoviedb.org/3' # 앞쪽 부분
+
+params = { # 필요한 매개변수 직접 설정
+    'api_key': '6aee34be99bb1d1b3fa358b709332b7e',
+    'language': 'ko'
+    #등등.....
+}
+
+response = requests.get(url, params=params).json()
+pprint(response) # response에 받은 제이슨 파일 출력
+```
