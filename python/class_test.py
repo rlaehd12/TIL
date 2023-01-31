@@ -45,7 +45,7 @@ test()'''
 # sms
 # 수신자, 발신자, 내용
 
-class Sms:
+class Sms:# 부모 클래스
 
     name = 'sms'
     def __init__(self, receiver, sender, content):
@@ -64,7 +64,7 @@ class Lms(Sms): # 자식 클래스
 
     name = 'lms'
     def __init__(self, receiver, sender, content):
-        super().__init__(receiver, sender, content)
+        super().__init__(receiver, sender, content) # 상속
 
     def __str__(self):
         return f' lms 수신자 : {self.receiver}, 발신자 : {self.sender}, 내용 : {self.content}'
