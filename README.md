@@ -20,7 +20,7 @@
 
 ## 알고리즘
 
-* 아직 없슴
+* [배열, 정렬](https://github.com/rlaehd12/TIL/blob/main/algorithm/0201.md#index)
 
 ## 기타 학습
 
