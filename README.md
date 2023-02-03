@@ -30,4 +30,6 @@
 
 * [git 기초 등](https://github.com/rlaehd12/TIL/blob/main/study/study2.md)
 
+* [코테 학습방법](https://github.com/rlaehd12/TIL/blob/main/study/study3.md)
+
 * [etc](https://github.com/rlaehd12/TIL/blob/main/study/etc.md#etc)

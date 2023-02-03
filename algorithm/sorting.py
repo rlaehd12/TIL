@@ -24,6 +24,6 @@ def Counting_sort(A, k):
         B[C[A[i]]] = A[i]
     return B
 
-a = [1,2,64,4,32,41,54]
+a = [1,2,16,4,7,13,9]
 #bubble_sort(lst, rev= True)
-print(Counting_sort(a,max(a)))
+#print(Counting_sort(a,max(a)))
