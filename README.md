@@ -14,13 +14,15 @@
 
 * [순서가 없는 데이터 구조](https://github.com/rlaehd12/TIL/blob/main/python/0126.md#index)
 
-* [객체지향 프로그래밍](https://github.com/rlaehd12/TIL/blob/main/python/0130.md)
+* [객체지향 프로그래밍](https://github.com/rlaehd12/TIL/blob/main/python/0130.md#index)
 
-* [객체지향 심화, 예외처리](https://github.com/rlaehd12/TIL/blob/main/python/0131.md)
+* [객체지향 심화, 예외처리](https://github.com/rlaehd12/TIL/blob/main/python/0131.md#index)
 
 ## 알고리즘
 
 * [배열, 정렬](https://github.com/rlaehd12/TIL/blob/main/algorithm/0201.md#index)
+
+* [2차원 배열, 비트](https://github.com/rlaehd12/TIL/blob/main/algorithm/0206.md#index)
 
 ## 기타 학습
 

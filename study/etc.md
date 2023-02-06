@@ -55,3 +55,8 @@ params = { # 필요한 매개변수 직접 설정
 response = requests.get(url, params=params).json()
 pprint(response) # response에 받은 제이슨 파일 출력
 ```
+
+## 깃헙 이미지 혹시 없어지면
+
+* algorithm 안 0206.md파일
+* ![ㅇㅇ](https://raw.githubusercontent.com/rlaehd12/imagee/master/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png)
