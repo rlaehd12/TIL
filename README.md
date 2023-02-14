@@ -26,7 +26,7 @@
 
 * [문자열](https://github.com/rlaehd12/TIL/blob/main/algorithm/0208.md#index)
 
-* [스택](https://github.com/rlaehd12/TIL/blob/main/python/0213.md#index)
+* [스택](https://github.com/rlaehd12/TIL/blob/main/algorithm/0213.md#index)
 
 ## 기타 학습
 
