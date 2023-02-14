@@ -19,6 +19,33 @@ for i in range(e):
     adjl[v1].append(v2)
     adjl[v2].append(v1)
 
-print(adjl)
-for i in adjm:
-    print(i)
+## 딕셔너리 활용
+graph = {}
+
+graph[0] = [1,2]
+graph[1] = [2,3]
+##......
+
+# 재귀 구현
+def dfs1(v):
+	visited[v] = 1
+	print(v, end = " ")
+	# 현재 v는 시작정점, 인접한 정점 중 방문을 안한 곳 
+	for w in range(1, V+1):
+		if arr[v][w] == 1 and visited[w] == 0:
+			dfs(w)
+
+def dfs2(v):
+    stack = [v]
+    # 스택이 빌 때까지 반복 
+    while len(stack):
+        v = stack.pop()
+        # v가 아직 방문 전이라면 
+        visited[v] = 1
+
+        for w in range(1, V + 1):
+            if arr[v][w] == 1 and visited[w] == 0:
+                stack.append(w)
+
+
+dfs1(1)
