@@ -28,6 +28,8 @@
 
 * [스택](https://github.com/rlaehd12/TIL/blob/main/algorithm/0213.md#index)
 
+* [스택응용, 백트래킹 등](https://github.com/rlaehd12/TIL/blob/main/algorithm/0216.md#index)
+
 ## 기타 학습
 
 * [꿀팁](https://github.com/rlaehd12/TIL/blob/main/study/study0.1.md)
