@@ -32,6 +32,8 @@
 
 * [큐, BFS](https://github.com/rlaehd12/TIL/blob/main/algorithm/0220.md#index)
 
+* [트리](https://github.com/rlaehd12/TIL/blob/main/algorithm/0222.md#index)
+
 ## 기타 학습
 
 * [꿀팁](https://github.com/rlaehd12/TIL/blob/main/study/study0.1.md)
