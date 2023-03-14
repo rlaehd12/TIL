@@ -36,6 +36,13 @@
 
 * [개념 응용](https://github.com/rlaehd12/TIL/blob/main/algorithm/0227.md#index)
 
+## web
+
+* [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md)
+* [CSS 기본](https://github.com/rlaehd12/TIL/blob/main/web/0308.md)
+* [CSS 레이아웃](https://github.com/rlaehd12/TIL/blob/main/web/0309.md)
+* [Bootstrap](https://github.com/rlaehd12/TIL/blob/main/web/0310.md)
+
 ## 기타 학습
 
 * [꿀팁](https://github.com/rlaehd12/TIL/blob/main/study/study0.1.md)
