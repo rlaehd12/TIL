@@ -38,12 +38,15 @@
 
 ## web
 
-* [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md)
-* [CSS 기본](https://github.com/rlaehd12/TIL/blob/main/web/0308.md)
-* [CSS 레이아웃](https://github.com/rlaehd12/TIL/blob/main/web/0309.md)
-* [Bootstrap](https://github.com/rlaehd12/TIL/blob/main/web/0310.md)
+* [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md#index)
+* [CSS 기본](https://github.com/rlaehd12/TIL/blob/main/web/0308.md#index)
+* [CSS 레이아웃](https://github.com/rlaehd12/TIL/blob/main/web/0309.md#index)
+* [Bootstrap](https://github.com/rlaehd12/TIL/blob/main/web/0310.md#index)
+* [django 시작](https://github.com/rlaehd12/TIL/blob/main/web/0314.md#index)
 
-## 기타 학습
+## 기타 등등
+
+* [깃헙.io](https://rlaehd12.github.io/)
 
 * [꿀팁](https://github.com/rlaehd12/TIL/blob/main/study/study0.1.md)
 
@@ -54,3 +57,6 @@
 * [코테 학습방법](https://github.com/rlaehd12/TIL/blob/main/study/study3.md)
 
 * [etc](https://github.com/rlaehd12/TIL/blob/main/study/etc.md#etc)
+
+#index
+
