@@ -1,10 +1,26 @@
 key = 20
-a = 20
+a = 3
 A = [i for i in range(a)]
 N = len(A)
-bit = [0] * N  # 확인용
+bit = [0] * N  # bit[i] A[i]원소가 부분집합에 포함되는지 표시
 cnt = 0
 
+# 재귀 함수 활용
+def subset(i,k):  # bit[i]를 결정할 함수
+    if i == k:  # base case, 비트 모든 원소 결정됨
+        for j in range(k):
+            if bit[j]:
+                print(A[j], end=' ')
+        print()
+    else:
+        bit[i] = 1
+        subset(i+1, k)
+        bit[i] = 0
+        subset(i+1, k)
+
+subset(0, N)
+
+# 예제들, 백트래킹
 # 1~10 의 파워셋중 원소의 합이 10인 부분집합을 구해라
 def f(i, k, key):
     if i == k:  # 하나의 부분집합 완성

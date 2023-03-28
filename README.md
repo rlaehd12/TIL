@@ -36,6 +36,8 @@
 
 * [개념 응용](https://github.com/rlaehd12/TIL/blob/main/algorithm/0227.md#index)
 
+* [순열, 조합](https://github.com/rlaehd12/TIL/blob/main/algorithm/0327.md#index)
+
 ## web
 
 * [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md#index)
@@ -43,6 +45,12 @@
 * [CSS 레이아웃](https://github.com/rlaehd12/TIL/blob/main/web/0309.md#index)
 * [Bootstrap](https://github.com/rlaehd12/TIL/blob/main/web/0310.md#index)
 * [django 시작](https://github.com/rlaehd12/TIL/blob/main/web/0314.md#index)
+* [디자인 패턴, 템플릿](https://github.com/rlaehd12/TIL/blob/main/web/0315.md#index)
+* [DB기초, 모델](https://github.com/rlaehd12/TIL/blob/main/web/0316.md#index)
+* [장고 CRUD](https://github.com/rlaehd12/TIL/blob/main/web/0320.md#index)
+* [장고 폼, 스태틱 파일](https://github.com/rlaehd12/TIL/blob/main/web/0321.md#index)
+* [인증, 쿠키와 세션](https://github.com/rlaehd12/TIL/blob/main/web/0322.md#index)
+* [장고 회원가입, 데코레이터](https://github.com/rlaehd12/TIL/blob/main/web/0323.md#index)
 
 ## 기타 등등
 
@@ -57,6 +65,3 @@
 * [코테 학습방법](https://github.com/rlaehd12/TIL/blob/main/study/study3.md)
 
 * [etc](https://github.com/rlaehd12/TIL/blob/main/study/etc.md#etc)
-
-#index
-

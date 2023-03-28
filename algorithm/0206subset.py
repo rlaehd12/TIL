@@ -31,5 +31,3 @@ for i in range(1<<n):       # 1<<n: 2^n 즉 부분집합 개수
             print(arr[j], end=', ')  # 1이면 배열 j번째 원소 출력, 0이면 출력 안함
     print()
 print()
-
-print(25 | 14)
