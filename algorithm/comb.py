@@ -22,7 +22,7 @@ A = [i for i in range(n)]
 nCr(n, r, 0)
 
 print()
-# 다른 재귀 이용 방법
+# 다른 재귀 이용 방법 - 파스칼 삼각형
 # tr - 저장할 배열
 # an - 원본 배열
 def comb(n, r):

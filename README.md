@@ -22,7 +22,7 @@
 
 * [배열, 정렬](https://github.com/rlaehd12/TIL/blob/main/algorithm/0201.md#index)
 
-* [2차원 배열, 비트](https://github.com/rlaehd12/TIL/blob/main/algorithm/0206.md#index)
+* [2차원 배열, 검색](https://github.com/rlaehd12/TIL/blob/main/algorithm/0206.md#index)
 
 * [문자열](https://github.com/rlaehd12/TIL/blob/main/algorithm/0208.md#index)
 
