@@ -38,6 +38,10 @@
 
 * [순열, 조합](https://github.com/rlaehd12/TIL/blob/main/algorithm/0327.md#index)
 
+* [분할정복, 백트래킹](https://github.com/rlaehd12/TIL/blob/main/algorithm/0329.md#index)
+
+* [그래프](https://github.com/rlaehd12/TIL/blob/main/algorithm/0403.md#index)
+
 ## web
 
 * [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md#index)
