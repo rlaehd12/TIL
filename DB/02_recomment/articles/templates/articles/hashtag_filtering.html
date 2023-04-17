@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <p> {{hashtag.content}} </p>
+  <hr>
+  {% for article in articles %}
+    <a href="{% url 'articles:detail' article.pk %}"><p> {{article}} </p></a>
+    <p> {{article.content}} </p>
+    <hr>
+  {% endfor %}
+  <a href="{% url 'articles:index' %}"> back to index</a>
+{% endblock content %}
