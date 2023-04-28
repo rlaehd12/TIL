@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .done {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <form action="/todos/">
+    <input type="text">
+    <button>Todo</button>
+  </form>
+  <ul>
+  </ul>
+
+
+<script>
+  let my_id = 0
+  const form = document.querySelector('form')
+  function addTodo (event) {
+    // 이벤트를 취소한다.
+    event.preventDefault()
+    my_id += 1
+
+
+    // 입력 element를 찾고 해당 입력 element의 value 값을 저장한다.
+    const my_input = document.querySelector('input')
+    const data = my_input.value
+    console.log(data);
+
+
+    // li element를 생성 후 input element의 value 값을 데이터로 저장한다
+    const li = document.createElement('li')
+    li.innerText = data
+    li.setAttribute('data-id', my_id)
+    
+    
+    
+    // ul 태그의 자식 태그로 위에서 생성한 li element를 넣는다.
+    const ul = document.querySelector('ul')
+    ul.appendChild(li)
+    
+    // 삭제 버튼을 생성 후 li 태그의 자식 태그로 넣는다.
+    const del = document.createElement('button')
+    del.innerText = 'X'
+    del.setAttribute('data-id', my_id)
+    
+    li.appendChild(del)
+
+    // 삭제 버튼을 클릭하면 해당 li element를 삭제한다
+    del.addEventListener('click',  (e) =>{
+      console.log(li.dataset.id);
+      console.log('del.parentElement', del.parentElement.parentElement)
+      console.log('e.target', e.target.parentElement.dataset.id)
+      console.log(e);
+      console.log(li);
+      // console.log(this);
+      // console.log(this.parentElement);
+      li.remove()
+    })
+    
+    
+    // li element를 클릭하면 취소선이 토글된다.
+      li.addEventListener('click', function (event) {
+        console.log(this);
+        li.classList.toggle('done')
+        // event.target.classList.toggle('done')
+      })
+
+      event.target.reset()
+    }
+    
+  form.addEventListener('submit', addTodo)
+</script>
+</body>
+</html>

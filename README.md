@@ -18,6 +18,12 @@
 
 * [객체지향 심화, 예외처리](https://github.com/rlaehd12/TIL/blob/main/python/0131.md#index)
 
+## 자바스크립트
+
+* [변수, 자료형, 연산자 등](https://github.com/rlaehd12/TIL/blob/main/javascript/0418.md#index)
+
+* [참조 타입](https://github.com/rlaehd12/TIL/blob/main/javascript/0419.md#index)
+
 ## 알고리즘
 
 * [배열, 정렬](https://github.com/rlaehd12/TIL/blob/main/algorithm/0201.md#index)
@@ -44,17 +50,24 @@
 
 ## web
 
-* [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md#index)
-* [CSS 기본](https://github.com/rlaehd12/TIL/blob/main/web/0308.md#index)
-* [CSS 레이아웃](https://github.com/rlaehd12/TIL/blob/main/web/0309.md#index)
-* [Bootstrap](https://github.com/rlaehd12/TIL/blob/main/web/0310.md#index)
-* [django 시작](https://github.com/rlaehd12/TIL/blob/main/web/0314.md#index)
-* [디자인 패턴, 템플릿](https://github.com/rlaehd12/TIL/blob/main/web/0315.md#index)
-* [DB기초, 모델](https://github.com/rlaehd12/TIL/blob/main/web/0316.md#index)
-* [장고 CRUD](https://github.com/rlaehd12/TIL/blob/main/web/0320.md#index)
-* [장고 폼, 스태틱 파일](https://github.com/rlaehd12/TIL/blob/main/web/0321.md#index)
-* [인증, 쿠키와 세션](https://github.com/rlaehd12/TIL/blob/main/web/0322.md#index)
-* [장고 회원가입, 데코레이터](https://github.com/rlaehd12/TIL/blob/main/web/0323.md#index)
+* html, css
+  * [HTML, CSS](https://github.com/rlaehd12/TIL/blob/main/web/0307.md#index)
+  * [CSS 기본](https://github.com/rlaehd12/TIL/blob/main/web/0308.md#index)
+  * [CSS 레이아웃](https://github.com/rlaehd12/TIL/blob/main/web/0309.md#index)
+  * [Bootstrap](https://github.com/rlaehd12/TIL/blob/main/web/0310.md#index)
+
+* django, DB
+  * [django 시작](https://github.com/rlaehd12/TIL/blob/main/web/0314.md#index)
+  * [디자인 패턴, 템플릿](https://github.com/rlaehd12/TIL/blob/main/web/0315.md#index)
+  * [DB기초, 모델](https://github.com/rlaehd12/TIL/blob/main/web/0316.md#index)
+  * [장고 CRUD](https://github.com/rlaehd12/TIL/blob/main/web/0320.md#index)
+  * [장고 폼, 스태틱 파일](https://github.com/rlaehd12/TIL/blob/main/web/0321.md#index)
+  * [인증, 쿠키와 세션](https://github.com/rlaehd12/TIL/blob/main/web/0322.md#index)
+  * [장고 회원가입, 데코레이터](https://github.com/rlaehd12/TIL/blob/main/web/0323.md#index)
+  * [DB기본](https://github.com/rlaehd12/TIL/blob/main/web/0405.md#index)
+  * [SQL문, 정규형](https://github.com/rlaehd12/TIL/blob/main/web/0406.md#index)
+  * [장고 M:1, M:N](https://github.com/rlaehd12/TIL/blob/main/web/0410.md#index)
+  * [웹 구조, API, Restful API](https://github.com/rlaehd12/TIL/blob/main/web/0413.md#index)
 
 ## 기타 등등
 

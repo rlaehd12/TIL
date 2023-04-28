@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div>
+    <img src="" alt="" id="dogimg">
+  </div>
+  <div id="2"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    const dogListURL = 'https://dog.ceo/api/breeds/list/all'
+    // african/images/random
+    const BreedIMG = 'https://dog.ceo/api/breed/'
+    let breed_list = null 
+    axios({
+      method :'get',
+      url:dogListURL,
+    })
+    .then((response)=>{
+      // console.log(response.data['message']);
+      breed_list = response.data.message;
+      console.log('breed_list', breed_list)
+      return response.data['message']  // message 리턴
+    })
+    .then((response)=>{
+      const $breedslist = document.getElementById('2')  
+      const dogimg = document.getElementById('dogimg')
+      for (const key in response) {  // 키값 순회
+        // console.log(key);
+        const imgsrc = document.createElement('button')
+        imgsrc.innerText = key
+        $breedslist.appendChild(imgsrc)
+        // event
+        imgsrc.addEventListener('click', ()=>{
+          axios({
+            method:'get',
+            url:`${BreedIMG}${key}/images/random`
+          })
+          .then((response)=>{
+            // console.log(response);
+            // ===================================================
+            console.log(response['data']['message']);
+            dogimg.setAttribute('src', response['data']['message'])
+            dogimg.setAttribute('height', 500)
+            return response['data']['message']
+          })
+        })
+      }
+    })
+    // alert('asdf')
+  </script>
+</body>
+</html>
