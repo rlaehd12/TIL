@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+  <h1>Todo List</h1>
+
+  <div id="app">
+    <input type="text" v-model="txt">
+    <button @click = "myappend">+</button>
+    <!-- for -->
+    <ul v-for="(val, idx) in todolist":key="idx">
+      <li>
+        <input type="checkbox" @click = "toggle">
+        <span>{{val}}</span>
+      </li>
+    </ul>
+    <!-- delete -->
+    <div>
+      <button>완료 목록 삭제</button>
+    </div>
+  </div>
+
+
+
+
+  <!-- =====================================javascript=============================== -->
+  <script>
+    let a = []
+    // app
+    const app = new Vue({
+      el:"#app",
+      data:{
+        id:0,
+        txt: "",
+        todolist:[],
+      },
+      methods:{
+        myappend: function (event) {
+          console.log(this.txt);
+          if (this.txt === "") {
+            alert('입력ㄱㄱ')
+            return
+          }
+          this.todolist.push(this.txt)
+          console.log(this.todolist);
+          this.id++
+        },
+        toggle: function (event) {
+          console.log(event.target.checked);
+        }
+      },
+    })
+    // ======================================================================================
+  </script>
+</body>
+</html>

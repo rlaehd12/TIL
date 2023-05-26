@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
+  <meta charset="utf8">
+  <title>Hello, world</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <h1>테스트</h1>
+  <input type="text" v-model="txt">
+  <button v-on:click = "check">확인하기</button>
+</div>
+
+<script type="text/javascript">
+   var app = new Vue({
+        el : '#app',
+        methods:{
+          check: function (ev) {
+            if (this.txt === '') {
+              alert('입력하셈')
+              return
+            }
+            console.log(this.txt)
+            console.log(ev.target)
+            const len = this.txt.length
+            let flag = 0
+            for (let i = 0; i < len; i++) {
+              if (this.txt[i] !== this.txt[len-i-1]) {
+                flag = 1
+                alert('회문 아님')
+                break
+              } 
+              
+            }
+            if (flag === 0) {
+              alert('회문')
+            }
+          }
+        },
+        data:{
+          txt:""
+        },
+   });
+</script>
+
+</body>
